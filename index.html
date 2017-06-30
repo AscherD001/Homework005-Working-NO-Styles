@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="assets/javascript/script.js"></script>
+	<link rel="stylesheet" href="assets/style/style.css">
+	<title>Trivia!</title>
+</head>
+<body>
+
+	<div class="wrapper">
+		<h1>Trivia!</h1>
+		<div><h2>Time: <br><span class="timer"></span></h2></div>
+
+		<h2><div class="question"></div></h2>
+		<h1><div class="answer1 answer"></div></h1>
+		<h1><div class="answer2 answer"></div></h1>
+		<h1><div class="answer3 answer"></div></h1>
+		<h1><div class="answer4 answer"></div></h1>
+	</div>
+	<div class="wrapper2">
+		<h1>Trivia!</h1>
+		<h1>Categories:</h1>
+		<button class="buttonCat any" value="any">Any Category</button>
+		<button class="buttonCat general" value="9">General Knowledge</button>
+		<button class="buttonCat enterBook" value="10">Entrtainment: Books</button>
+		<button class="buttonCat enterFilm" value="11">Entrtainment: Film</button>
+		<button class="buttonCat enterMusic" value="12">Entrtainment: Music</button>
+		<button class="buttonCat enterMT" value="13">Entrtainment: Music &amp; Theater</button>
+		<button class="buttonCat enterTV" value="14">Entrtainment: Television</button>
+		<button class="buttonCat enterVG" value="15">Entrtainment: Video Games</button>
+		<button class="buttonCat enterBG" value="16">Entrtainment: Board Games</button>
+		<button class="buttonCat sciNat" value="17">Science &amp; Nature</button>
+		<button class="buttonCat sciComp" value="18">Science &amp; Computers</button>
+		<button class="buttonCat sciMath" value="19">Science Mathematics</button>
+		<button class="buttonCat myth" value="20">Mythology</button>
+		<button class="buttonCat sport" value="21">Sports</button>
+		<button class="buttonCat geo" value="22">Geography</button>
+		<button class="buttonCat history" value="23">History</button>
+		<button class="buttonCat politics" value="24">Politics</button>
+		<button class="buttonCat art" value="25">Art</button>
+		<button class="buttonCat celeb" value="26">Celebrities</button>
+		<button class="buttonCat animals" value="27">Animals</button>
+		<h1>Difficulty:</h1>
+		<button class="buttonDif easy" value="0">Easy</button>
+		<button class="buttonDif medium" value="1">Medium</button>
+		<button class="buttonDif hard" value="2">Hard</button>
+		<br>
+		<h1>Press Ready to Begin!</h1>
+		<button class="ready">Ready!</button>
+	</div>
+	<div class="wrapper3">
+		<h1>Trivia!</h1>
+		<h1>Right: <span class="right"></span></h1>
+		<h1>Wrong: <span class="wrong"></span></h1>
+		<h1>Score: <span class="total"></span></h1>
+		<button class="restart">End</button>
+	</div>
+	<audio id="clap" src="assets/audio/clap.mp3" autostart="true"></audio>
+	<audio id="chirp" src="assets/audio/chirp.mp3" autostart="true"></audio>
+	<audio id="applause" src="assets/audio/applause.mp3" autostart="true"></audio>
+	<audio id="laugh" src="assets/audio/laugh.mp3" autostart="true"></audio>
+
+</body>
+</html>
